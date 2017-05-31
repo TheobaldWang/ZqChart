@@ -227,7 +227,7 @@ public class ZqChart extends View {
             mDatasSingle.get(i).pointY=y;
             mDatasSingle.get(i).ares=new RectF(x- mDMoneyRateW /2,measuredHeight-bounds.height()-months.size()*defaultUnitHeight,x+ mDMoneyRateW /2,measuredHeight-bounds.height());
             Log.i("mDatasSingle","ares:"+ mDatasSingle.get(i).ares);
-        }setDatas
+        }
         //draw 折线 ,主要是位置的更新
         canvas.drawPath(path,mPaintLine);
 
