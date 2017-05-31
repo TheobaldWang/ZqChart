@@ -22,7 +22,7 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 
 /**
- * Created by CLOUD on 2017/5/27.
+ * Created by on 2017/5/27.
  */
 
 public class ZqChart extends View {
@@ -124,7 +124,7 @@ public class ZqChart extends View {
                 width=defaultWidth;
             }
             if (heightmode==MeasureSpec.AT_MOST){
-                height= (int) (defaultUnitHeight*months.size()*1.5);
+                height= (int) (defaultUnitHeight*months.size()*1.2);
             }
         }
 
@@ -150,7 +150,7 @@ public class ZqChart extends View {
         for (int i = 1; i <=15; i++) {
             String day=""+new DecimalFormat("#00").format(i*2);
             //draw 每天的日期
-            canvas.drawText(day+"号",i*xUnit-bounds.width()/4,measuredHeight-bounds.height(),mPaintText);
+            canvas.drawText(day+"",i*xUnit-bounds.width()/4,measuredHeight-bounds.height(),mPaintText);
         }
         //每一月的位置控制
         int count=1;
