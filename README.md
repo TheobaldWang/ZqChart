@@ -2,7 +2,7 @@
 ##### 一个折线的view,有月份和日期的显示
 #### 直接看图
 
-#### 使用方法
+[使用方法](http://www.jianshu.com/writer#/notebooks/11842585/notes/12975631)
 #### 布局文件    
      <com.example.cloud.zqchart.ZqChart
          android:id="@+id/chart"
