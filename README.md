@@ -1,7 +1,7 @@
 #### ZqChart
 ##### 一个折线的view,有月份和日期的显示
 #### 直接看图
-
+![1493703912476.mp4_1493738906.gif](http://upload-images.jianshu.io/upload_images/3001453-092c16231ed73f12.gif?imageMogr2/auto-orient/strip)
 [使用方法](http://www.jianshu.com/writer#/notebooks/11842585/notes/12975631)
 #### 布局文件    
      <com.example.cloud.zqchart.ZqChart
