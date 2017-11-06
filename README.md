@@ -30,3 +30,4 @@
             mchart.setDatas(datas);
         }
     }
+    
